@@ -15,7 +15,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap" rel="stylesheet">
 
 
-  </head>  <body>
+  </head>
+  <body>
+    <button id="topBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
       <nav class="navbar navbar-default navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xs sticky-top d-sm-text-center" style="background:black;">
       <div class="container-fluid">
                <div class="navbar-header">
@@ -1148,13 +1150,28 @@
 
         <!-- footer ends from here -->
 
-                                <script>
+        <script>
 
-                                    document.getElementById("dateToday").valueAsDate = new Date();
-                                    document.getElementById("dateTodayhf").valueAsDate = new Date();
+        $(document).ready(function(){
 
-                                </script>
+        $(window).scroll(function(){
+        if ($(this).scrollTop() > 40){
+        $('#topBtn').fadeIn();
+        } else{
+        $('#topBtn').fadeOut();
+        }
+        });
 
+        $("#topBtn").click(function(){
+         $('html,body').animate({scrollTop:0},800);
+        });
+        });
+
+
+            document.getElementById("dateToday").valueAsDate = new Date();
+            document.getElementById("dateTodayhf").valueAsDate = new Date();
+
+        </script>
 
 
     </body>

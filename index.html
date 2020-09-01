@@ -17,7 +17,7 @@
 
       </head>
       <body>
-<button onclick="topFunction()" id="topScroll" title="Go to top">Top</button>
+        <button id="topBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
         <div class="alert alert-dismissible">
             <a href="#" class="close" data-dismiss="alert" aria-label="close"><i class="fa fa-times" aria-hidden="true" style="color:red;"></i></a>
             <strong style="color:#00C0F9;font-size:20px;">Important!</strong> This website is just a college project. It doesn't have any real world dealings. All the content displayed on the site are fictional/dummy only. If you have any issues with content published on the site, please write on <em>navjot.sohal9@hotmail.com</em>. Feedbacks are much Appreciated.
@@ -25,7 +25,7 @@
             <li>Icon credits: <a href="https://fontawesome.com/" target="_blank">fontawesome</a>, <a href="https://icons8.com/" target="_blank">Icon8</a>.</li>
             <li>Custom Fonts: <a href="https://fonts.google.com/" target="_blank">Google fonts</a>.</li>
             <li>Colour credits: <a href="https://www.schemecolor.com/" target="_blank">Schemecolor</a>.</li>
-            <li>Special Thanks to: <a href="https://www.w3schools.com/" target="_blank">W3schools</a>, <a href="https://stackoverflow.com/" target="_blank">Stackover-flow</a>, <a href="https://getbootstrap.com/" target="_blank">Twitter-Bootstrap</a> and <a href="https://in.000webhost.com/" target="_blank">000WebHost.com</a>.</li>
+            <li>Special Thanks to: <a href="https://www.w3schools.com/" target="_blank">W3schools</a>, <a href="https://stackoverflow.com/" target="_blank">Stackover-flow</a>, <a href="https://getbootstrap.com/" target="_blank">Twitter-Bootstrap</a> and <a href="https://github.com/" target="_blank">github</a>.</li>
         </div>
       <nav class="navbar navbar-default navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xs sticky-top d-sm-text-center" style="background:black;">
       <div class="container-fluid">
@@ -2068,6 +2068,23 @@ $(this).prop('Counter',0).animate({
     });
 
 
+    $(document).ready(function(){
+
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 40){
+    $('#topBtn').fadeIn();
+    } else{
+    $('#topBtn').fadeOut();
+    }
+    });
+
+    $("#topBtn").click(function(){
+     $('html,body').animate({scrollTop:0},800);
+    });
+    });
+
+
+
     document.getElementById("dateToday").valueAsDate = new Date();
     document.getElementById("dateTodayhf").valueAsDate = new Date();
 
@@ -2076,13 +2093,6 @@ $(this).prop('Counter',0).animate({
 
 
 </script>
-
-
-
-
-
-
-
 
 
 
