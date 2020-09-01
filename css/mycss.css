@@ -1,0 +1,413 @@
+.counter-class  {text-align: center; color:white;font-size: 40px;font-weight:bold;-webkit-text-stroke:1px solid;}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 30; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.fa.fa-exclamation-circle.pull-right{
+margin-top:5px;
+
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover  {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color:red;
+  background:red;
+}
+
+.iconContainer{
+position: fixed;
+width:45px;
+height:45px;
+top:70px;
+right:40px;
+z-index: 50;
+background:black;
+border-radius:50px;
+box-shadow: 0 0 30px #39FF14;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.alert{
+z-index: 99;
+background:black;
+color:white;
+border:2px solid red;
+font-weight:200;
+margin-bottom:0px;
+}
+
+.alert a{
+color:white;  
+}
+
+.menubuttonicon{
+position: absolute;
+top:11px;
+right:15px;
+z-index: 1;
+color:white;
+cursor:pointer;
+}
+
+#clsIcon{
+  display: none;
+  margin-right:2px;
+}
+
+
+#navlinkhover:hover{
+background: #1E94E8;
+color:white;
+}
+
+#gallightbox::-webkit-scrollbar {
+  width: 10px;
+  color:#00C0F9;
+  overflow-style:auto;
+}
+
+/* Track */
+#gallightbox::-webkit-scrollbar-track {
+  background: white;
+  width: 30px;
+  height:5px;
+  border-radius: 50px;
+}
+
+/* Handle */
+#gallightbox::-webkit-scrollbar-thumb {
+  background: #00C0F9;
+  border-radius:20px;
+
+}
+
+/* Handle on hover */
+#gallightbox::-webkit-scrollbar-thumb:hover {
+  background: #E6353B;
+}
+
+
+
+/* gallery light box model horizontal scroll */
+
+#thumbxscroll::-webkit-scrollbar {
+  width: 10px;
+  color:#00C0F9;
+  overflow-style:auto;
+}
+
+/* Track */
+#thumbxscroll::-webkit-scrollbar-track {
+  background: white;
+  width: 10px;
+  height:5px;
+  border-radius: 50px;
+}
+
+/* Handle */
+#thumbxscroll::-webkit-scrollbar-thumb {
+  background: #88D70A;
+  border-radius:20px;
+
+
+}
+
+/* Handle on hover */
+#thumbxscroll::-webkit-scrollbar-thumb:hover {
+  background: #FFEF00;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.glbmodal {
+  display: none;
+  position: fixed;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  z-index: 1;
+
+}
+
+/* Modal Content */
+.glbmodal-content {
+  position: relative;
+  top:-50px;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+  height:400px;
+  z-index: 2;
+}
+
+
+.thumb-col{
+ width:80%;
+ margin:auto;
+ overflow-x:auto;
+ display:flex;
+
+}
+
+
+/* The Close Button */
+.glbclosebtn {
+  color: red;
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+  left: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.glbclosebtn:hover,
+.glbclosebtn:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+
+
+/* Hide the slides by default */
+.glbSlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  z-index:1;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  color:white;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: fixed;
+  bottom: 0;
+  right:0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: black;
+}
+
+img.glbdemo {
+  opacity: 0.6;
+  height:150px;
+  width:150px;
+  display: inline-block;
+
+}
+
+.active,
+.glbdemo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.carousel-item{
+height:95vh;
+min-height: 300px;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+
+.carousel-caption h1{
+
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Grenze Gotisch', cursive;
+  font-size:100px;
+  bottom: initial;
+  opacity: 0.9;
+}
+
+
+.achievements {
+  -webkit-animation: achievements 1s ease-in-out infinite alternate;
+  -moz-animation: achievements 1s ease-in-out infinite alternate;
+  animation: achievements 1s ease-in-out infinite alternate;
+}
+
+
+::placeholder{color:#6DC1FF;text-align:center;font-family:Franklin Gothic Medium;font-size:15px;}
+
+
+.jumbotron-fluid.text-center {display: none;}
+
+@-webkit-keyframes achievements {
+  from {
+    text-shadow: 0 0 10px #FAFAD2, 0 0 20px #FAFAD2, 0 0 30px #FAFAD2, 0 0 40px #FAFAD2, 0 0 50px #FAFAD2, 0 0 65px #FAFAD2, 0 0 70px #FAFAD2;
+  }
+
+  to {
+    text-shadow: 0 0 20px #FAFAD2, 0 0 30px #FAFAD2, 0 0 40px #FAFAD2, 0 0 50px #FAFAD2, 0 0 60px #FAFAD2, 0 0 65px #FAFAD2, 0 0 70px #FAFAD2;
+  }
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+   .sidenav{text-center: 15px;}
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .navbar {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}
+
+/* nav bar elements center and add padding on screen size reduced */
+
+@media screen and (max-width: 766px){
+.navbar.navbar-default.navbar-expand-md.navbar-expand-lg.navbar-expand-xl.navbar-expand-xs.sticky-top.d-sm-text-center{text-align: center;}
+.dropdown-item.text-white{text-align: center;padding:8px;}
+.fa.fa-search{display: none;}
+#bottomnav{text-align: center;}
+
+}
+
+@media screen and (max-width: 500px){
+.counter-class{font-size: 25px;}
+.carousel-caption h1{font-size: 35px;text-align:center;padding:170px 0px;}
+.text-left.mt-5 p{font-size:15px;}
+.nav-link.text-white.font-weight-light{display: none;}
+.nav-link.text-white.mb-3{font-size:15px;}
+.btn.bg-primary.text-white.btn-lg.mt-3{font-size:15px;}
+}
+
+@media screen and (max-width:800px){
+  .jumbotron-fluid.text-center table{display: block;}
+  .jumbotron-fluid.text-center h3{display: block;}
+  .jumbotron-fluid.text-center{display: block;}
+  .col-sm-12.col-lg-6.col-md-6.col-xl-6 h4{font-size:20px;}
+  .jumbotron-fluid.d-sm-none.d-sm-none.d-md-block.d-lg-block.d-xl-block{display: none;}
+  .table.table-dark.table-hover.table-bordered.table-striped li{font-size:10px;line-height: 16px; margin-left:5px;}
+
+
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

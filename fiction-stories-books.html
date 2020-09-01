@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1">
+  <title>Read-Home</title>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/myjs.js" type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/mycss.css" type="text/css">
+  <link rel="icon" href="img/read8.png" type="image/png">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/7e07668b06.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap" rel="stylesheet">
+
+
+  </head>
+    <body>
+      <nav class="navbar navbar-default navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-expand-xs sticky-top d-sm-text-center" style="background:black;">
+      <div class="container-fluid">
+               <div class="navbar-header">
+                 <a href="index.html" class="navbar-brand text-white">Read<small>.com</small></a>
+               </div>
+               <ul class="nav navbar-nav">
+                 <button type="button" class="navbar-toggle d-xl-none d-md-none d-lg-none d-sm-block pull-xs-right" data-toggle="collapse" data-target="#mydropd" id="mybtn" style="background:none;border:none;">
+                   <i class="fa fa-bars" aria-hidden="true" style="color:white;"></i>
+                </button>
+              </ul>
+            <div class="collapse navbar-collapse d-md-none d-lg-none" id="mydropd">
+            <ul class="nav navbar-nav mx-auto">
+
+            <li class=" nav-item dropdown  px-3"><a href="#" class="text-white text-decoration-none nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Books</a>
+            <div class="dropdown-menu" style="background:black;">
+            <a class="dropdown-item text-white" href="pre-school-books.html" id="navlinkhover">Pre School<span class="badge badge-success ml-1">Gift</span></a>
+            <a class="dropdown-item text-white" href="primary-books.html" id="navlinkhover">Primary</a>
+            <a class="dropdown-item text-white" href="secondary-books.html" id="navlinkhover">Secondary</a>
+            <a class="dropdown-item text-white" href="commerce-books.html" id="navlinkhover">Commerce</a>
+            <a class="dropdown-item text-white" href="science-books.html" id="navlinkhover">Science</a>
+            <a class="dropdown-item text-white" href="arts-books.html" id="navlinkhover">Arts</a>
+            <a class="dropdown-item text-white" href="fiction-stories-books.html" id="navlinkhover">Fiction & Stories</a>
+            </div>
+            </li>
+            <li class=" nav-item dropdown px-3"><a href="#" class="text-white text-decoration-none nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Magzine</a>
+            <div class="dropdown-menu" style="background:black;">
+            <a class="dropdown-item text-white" href="magzines.html" id="navlinkhover">Men's Health</a>
+            <a class="dropdown-item text-white" href="magzines.html" id="navlinkhover">Femine <span class="badge badge-primary">50% off</span></a>
+            <a class="dropdown-item text-white" href="magzines.html" id="navlinkhover">Economic Times</a>
+            <a class="dropdown-item text-white" href="magzines.html" id="navlinkhover">Career Boost</a>
+            <a class="dropdown-item text-white" href="magzines.html" id="navlinkhover">GK Monthly <span class="badge badge-danger">Just Lunched</span></a>
+            </div>
+            </li>
+
+          <li class="nav-item dropdown px-3"><a href="#" class="text-white text-decoration-none nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Thesis</a>
+         <div class="dropdown-menu" style="background:black;">
+          <a class="dropdown-item text-white" href="thesis.html" id="navlinkhover">Science</a>
+          <a class="dropdown-item text-white" href="thesis.html" id="navlinkhover">Biology</a>
+          <a class="dropdown-item text-white" href="thesis.html" id="navlinkhover">Maths</a>
+          <a class="dropdown-item text-white" href="thesis.html" id="navlinkhover">Physics</a>
+          <a class="dropdown-item text-white" href="thesis.html" id="navlinkhover">Chemistry</a>
+        </div>
+         </li>
+           <li class="nav-item dropdown px-3"><a href="#" class="text-white text-decoration-none nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">E-Papers</a>
+           <div class="dropdown-menu" style="background:black;">
+             <a href="epapers.html" class="dropdown-item text-white" id="navlinkhover">E Paper Today  <span class="badge badge-danger">Today</span></a>
+             <a href="epapers.html" class="dropdown-item text-white" id="navlinkhover">E Paper Weekly  <span class="badge badge-warning">Sunday Edition</span></a>
+             <a href="epapers.html" class="dropdown-item text-white" id="navlinkhover">E Paper Monthly  <span class="badge badge-primary">Monthly Combined</span></a>
+             </div>
+           </li>
+           </ul>
+
+           <ul class="nav navbar-nav">
+                <li class=" mx-3"><a href="#" class="text-white dropdown" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i></a>
+                   <div class="dropdown-menu dropdown-menu-right" style="background:black;margin-right:70px;top:-2px;">
+                        <a href="#" class="dropdown-item"><input type="text" placeholder="Search" class="text-center" id="searchbar"></a>
+                   </div>
+                </li>
+
+       </div>
+       </div>
+     </ul>
+
+       </nav>
+
+
+
+
+ <div class="container-fluid h-100 mt-2">
+ <div class="row">
+ <div class="col-12 col-md-12 col-xl-12 col-lg-12" style="display:inline;">
+ </div>
+ <h3 class="text-left text-white p-2 d-inline m-4 shadow-lg" style="background:black;">Bed Time Stories</h3>
+ <div class="col-12 col-md-12 col-xl-12 col-lg-12 mt-4">
+
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb m-2 shadow-lg" style="background:black;display:inline-flex;">
+    <li class="breadcrumb-item text-secondary">Books</li>
+    <li class="breadcrumb-item text-secondary">Fiction and Stories</li>
+    <li class="breadcrumb-item active text-white" aria-current="page">Bed Time Stories</li>
+    </ol>
+    </nav>
+
+   <div class="card-deck">
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Disney Tales 1<span class="badge badge-success text-white float-right">Rs.150.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Disney Tales 2<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Disney Tales 3<span class="badge badge-success text-white  float-right">Rs 250.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Disney Tales 4<span class="badge badge-success text-white  float-right">Rs 100.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Disney Tales 5<span class="badge badge-success text-white  float-right">Rs 100.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Disney Tales 6<span class="badge badge-success  text-white float-right">Rs.150.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+
+    </div>
+  </div>
+
+
+<div class="col-12 col-md-12 col-xl-12 col-lg-12" style="background:black;">
+<h3 class="text-center text-white p-4">Tiny Puzzles</h3>
+</div>
+
+<div class="col-12 col-md-12 col-xl-12 col-lg-12">
+  <nav aria-label="breadcrumb">
+
+  <ol class="breadcrumb m-2" style="background:black;display:inline-flex;">
+    <li class="breadcrumb-item text-secondary">Books</li>
+    <li class="breadcrumb-item text-secondary">Fiction & stories</li>
+    <li class="breadcrumb-item active text-white" aria-current="page">Tiny Puzzles</li>
+  </ol>
+  </nav>
+  <div class="card-deck">
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Puzzle 1<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Puzzle 2<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Puzzle 3<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Puzzle 4<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Puzzle 5<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+
+      <div class="card-header text-white" style="background:black;">Puzzle 6<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+
+    </div>
+
+</div>
+
+<div class="col-12 col-md-12 col-xl-12 col-lg-12" style="background:black;">
+<h3 class="text-center text-white p-4">Brain Progress</h3>
+</div>
+
+<div class="col-12 col-md-12 col-xl-12 col-lg-12">
+  <nav aria-label="breadcrumb">
+
+  <ol class="breadcrumb m-2" style="background:black;display:inline-flex;">
+    <li class="breadcrumb-item text-secondary">Books</li>
+    <li class="breadcrumb-item text-secondary">Fiction & Stories</li>
+    <li class="breadcrumb-item active text-white" aria-current="page">Brain Progress</li>
+  </ol>
+ </nav>
+  <div class="card-deck">
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Book 1<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Book 2<span class="badge badge-success text-white  float-right">Rs 300.00</span></div><img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Book 3<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Book 4<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+      </div>
+      <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Book 5<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+     <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Book 6<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+
+    </div>
+
+</div>
+
+<div class="col-12 col-md-12 col-xl-12 col-lg-12" style="background:black;">
+<h3 class="text-center text-white p-4">Wisdom Tales</h3>
+</div>
+
+<div class="col-12 col-md-12 col-xl-12 col-lg-12">
+  <nav aria-label="breadcrumb">
+
+  <ol class="breadcrumb m-2" style="background:black;display:inline-flex;">
+    <li class="breadcrumb-item text-secondary">Books</li>
+    <li class="breadcrumb-item text-secondary">Fiction & Stories</li>
+    <li class="breadcrumb-item active text-white" aria-current="page">Wisdom Tales</li>
+  </ol>
+ </nav>
+  <div class="card-deck">
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">John & Friends<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Mary & Lamb<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Snow-White<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Adv. of Tin-Tin<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Tenali Rama<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+    <div class="card my-3" style="box-shadow:0px 0px 30px gray;">
+      <div class="card-header text-white" style="background:black;">Little Jhonny<span class="badge badge-success text-white  float-right">Rs 300.00</span></div>
+      <img src="img/fiction-books.png" class="card-img" alt="">
+
+      <div class="card-footer" style="background:black;"><i class="fa fa-heart" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Add to whishlist" style="color:#EC3B82;"></i>
+<i class="fa fa-shopping-cart ml-4" aria-hidden="true"  data-toggle="tooltip" data-placement="bottom" title="Add to Cart"  style="color:#0088DC;"></i>
+<i class="fa fa-sellsy ml-4 text-white" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="3 Days Trail in Bookshelf"></i>
+<i class="fa fa-exclamation-circle pull-right" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title="Report" style="color:#FF344E;"></i></div>
+    </div>
+
+    </div>
+
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+                                        <!-- side Bar menu -->
+
+                                         <div id="mySidenav" class="sidenav">
+                                         <a href="#"  data-target="#"><i class="" aria-hidden="true" style="color:white;margin-right:15px;margin-top:50px;"></i></a>
+                                         <a href="#"  data-toggle="modal" data-target="#LoginRegister"><i class="fa fa-circle" aria-hidden="true" style="color:#111;margin-right:15px;margin-top:50px;"></i>Login/SignUp</a>
+                                         <a href="#"  data-toggle="modal" data-target="#Notifications"><i class="fa fa-bell" aria-hidden="true" style="color:white;margin-right:15px;"></i>Notifications<span class="badge text-white ml-5" style="background:red;border-radius:50%;">0</span></a>
+                                         <a href="#"  data-toggle="modal" data-target="#ProfileOpen"><i class="fa fa-user-circle-o" aria-hidden="true" style="color:white;margin-right:15px;"></i>Profile</a>
+                                         <a href="#"  data-toggle="modal" data-target="#ProfileOpen"><i class="fa fa-book" aria-hidden="true" style="color:white;margin-right:15px;"></i>My Readables</a>
+                                         <a href="#"  data-toggle="modal" data-target="#RequestBook"><i class="fa fa-truck" aria-hidden="true" style="color:white;margin-right:15px;"></i>Request Book</a>
+                                         <a href="#"  data-toggle="modal" data-target="#TrackPostals"><i class="fa fa-map-marker" aria-hidden="true" style="color:white;margin-right:15px;"></i>Track Postals</a>
+                                         <a href="#"  data-toggle="modal" data-target="#ProfileOpen"><i class="fa fa-list-alt" aria-hidden="true" style="color:white;margin-right:15px;"></i>Records</a>
+                                         <a href="#"  data-toggle="modal" data-target="#Settings"><i class="fa fa-cogs" aria-hidden="true" style="color:white;margin-right:15px;"></i>Settings</a>
+                                         <a href="#"  data-toggle="modal" data-target="#HelpFeedback"><i class="fa fa-question-circle" aria-hidden="true" style="color:white;margin-right:15px;"></i>Help/Feedback</a>
+                                         </div>
+
+
+
+
+                                         <div  id="iconMenu" class="iconContainer">
+                                         <a class="menubuttonicon" id="menuBtn"><span onclick="open_close()"><i class="fa fa-user-o fa-1x text-white" aria-hidden="true" id="onIcon"></i><i class="fa fa-times" aria-hidden="true" id="clsIcon" style="color:red;"></i></span></a>
+                                         </div>
+
+
+
+
+
+
+                                         <!-- Profile Model/Form-->
+
+
+                                                               <div id="ProfileOpen" class="modal fade" role="dialog">
+                                                                  <div class="modal-dialog modal-xl">
+
+                                                                         <!-- Modal content-->
+                                                                             <div class="modal-content border-0">
+                                                                                         <div class="modal-header" style="background:black;">
+                                                                                              <h4 class="modal-title font-weight-bold text-white text-left"><i class="fa fa-user-circle" aria-hidden="true" style="color:white;margin-right:15px;"></i>Profile</h4>
+                                                                                              <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                                                                         </div>
+
+                                                                             <div class="modal-body border-0">
+
+                                                                                 <form class="horizontal">
+
+                                                                                       <div class="form-row">
+                                                                                                   <div class="col-sm-12 col-lg-3 col-md-3 col-xl-3">
+                                                                                                   <span class="font-weight-bold">Reader ID<span style="color:red;font-size:15px;">*</span></span><input type="text" class="form-control font-weight-bold text-dark" placeholder="Auto Assigned" disabled/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-3 col-md-3 col-xl-3">
+                                                                                                   <span class="font-weight-bold">DOB</span><input type="date" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-3 col-md-3 col-xl-3">
+                                                                                                   <span class="font-weight-bold">Gender</span><select class="form-control"/>
+                                                                                                                                               <option>Male</option>
+                                                                                                                                               <option>Female</option>
+                                                                                                                                               <option>Others</option>
+                                                                                                                                               </select>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-3 col-md-3 col-xl-3">
+                                                                                                   <img src="img/profile-img-icon.png" class="border-rounded img-thumbnail"/><input type="file" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                       </div>
+
+                                                                                       <div class="form-row mt-3">
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">First Name</span><input type="text" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">Middle Name</span><input type="text" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">Last Name</span><input type="text" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                       </div>
+
+                                                                                       <div class="mt-1 form-row">
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">Mobile</span><input type="text" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">Email</span><input type="email" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                       </div>
+
+                                                                                       <div class="mt-3 form-row">
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">Adhar No</span><input type="text" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">PAN No</span><input type="text" class="form-control"/>
+                                                                                                   </div>
+
+                                                                                                   <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                                   <span class="font-weight-bold">KYC Doc. No</span><span style="color:red;font-size:15px;font-weight:bold;">*</span><input type="text" class="form-control" disabled placeholder="KYC Details are System Protected."/>
+                                                                                                   </div>
+
+                                                                                       </div>
+
+                                                                                       <p class="text-dark text-left ml-3 mt-3"><span style="color:red;font-size:20px;font-weight:bold;">*</span>System Genrated and Protected fields, can't be changed by the user.</p>
+
+                                                                                     </form>
+
+                                                                                </div>
+
+                                                                              <div class="modal-footer" style="background:black;border:none;">
+                                                                                          <div class="pull-right">
+                                                                                          <button type="submit" class="btn btn-primary mr-2 mt-3" data-dismiss="modal">Update</button>
+                                                                                          <button type="submit" class="btn btn-danger mr-2 mt-3" data-dismiss="modal">Close</button>
+                                                                                          </div>
+
+                                                                             </div>
+
+
+                          </div>
+                        </div>
+                     </div>
+
+
+
+
+                     <!-- Request book Model/Form-->
+                     <div id="RequestBook" class="modal fade" role="dialog">
+                         <div class="modal-dialog modal-xl">
+
+                                         <!-- Modal content-->
+                           <div class="modal-content border-0">
+                                                   <div class="modal-header" style="background:black;">
+                                                   <h4 class="modal-title font-weight-bold text-white text-left"><i class="fa fa-truck" aria-hidden="true" style="color:green;margin-right:15px;"></i>ReQuest Book</h4>
+                                                   <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                                   </div>
+
+                                                             <div class="modal-body border-0">
+
+                                                                         <form class="form-horizontal font-weight-bold">
+
+                                                                                      <div class="form-row">
+
+                                                                                            <div class="col-sm-12 col-lg-4 col-md-4 col-xl-4">
+                                                                                            <span>Date</span><input type="date" id="dateToday" name="date" class="form-control font-weight-bold" disabled />
+                                                                                            </div>
+
+                                                                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 ">
+                                                                                            <span>Upload Image<span class="font-weight-light text-Secondary">(Optional)</span></span><input type="file" class="">
+                                                                                            </div>
+                                                                                      </div>
+
+                                                                                            <div class="form-group">
+                                                                                                 <span>Book Name</span><input type="text" class="form-control"  placeholder="Enter Book Name">
+                                                                                            </div>
+
+                                                                                      <div class="form-row">
+
+                                                                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4  mt-1">
+                                                                                            <span>Writer</span><input type="text" class="form-control"  placeholder="Enter Writer Details">
+                                                                                            </div>
+
+                                                                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4  mt-1">
+                                                                                            <span>Publisher</span><input type="text" class="form-control"  placeholder="Publisher Details">
+                                                                                            </div>
+
+                                                                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4  mt-1">
+                                                                                            <span>Price(Rs)<span class="font-weight-light mx-1 text-second">(Optional)</span></span><input type="text" class="form-control"  placeholder="Expected Book Price">
+                                                                                            </div>
+
+                                                                                      </div>
+
+                                                                                      <div class="form-row mt-1">
+
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4  mt-1">
+                                                                                             <span>Book Form</span><select class="form-control">
+                                                                                                                   <option>Digital</option>
+                                                                                                                   <option>Soft Cover</option>
+                                                                                                                   <option>Hard Cover</option>
+                                                                                                                   </select>
+                                                                                             </div>
+                                                                                             <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 mt-1">
+                                                                                               <span class="">Qnty (Max 5)</span>
+                                                                                                     <select class="form-control">
+                                                                                                       <option>1</option>
+                                                                                                       <option>2</option>
+                                                                                                       <option>3</option>
+                                                                                                       <option>4</option>
+                                                                                                       <option>5</option>
+                                                                                                     </select>
+                                                                                              </div>
+
+                                                                                              <div class="col-lg-4 col-md-4 col-sm-12 col-xl-4 mt-1">
+                                                                                                 <span class="">Delivery Type</span><select class="form-control">
+                                                                                                                                    <option>Standard (7 Working Days)</option>
+                                                                                                                                    <option>Speed (3 Working Days)</option>
+                                                                                                                                    </select>
+                                                                                             </div>
+
+                                                                                        </div>
+
+                                                                                        <div class="form-row mx-2">
+
+                                                                                                   <div class="col-xl-12 col-md-12 col-sm-12 col-lg-12">
+                                                                                                             <span>Additional Remarks<span class="font-weight-light mx-1 text-secondary">(Optional)</span></span><textarea class="form-control" row="5"/></textarea>
+                                                                                                             <span class="pull-left btn btn-primary mt-4" data-toggle="modal" data-target="#BookRequestTerms">Terms</span>
+                                                                                                   </div>
+
+                                                                                         </div>
+
+
+
+                                                   </form>
+
+                                                  </div>
+
+                                                  <div class="modal-footer mt-3 border-0" style="background:black;position:relative;">
+                                                             <div class="" style="position:absolute; left:0px;">
+                                                             <button type="submit" class="btn btn-warning ml-3 mt-3" data-dismiss="modal">Requested Books</button>
+                                                             </div>
+                                                             <div class="pull-right">
+                                                             <button type="submit" class="btn btn-success mr-2 mt-3" data-dismiss="modal">Request</button>
+                                                             <button type="submit" class="btn btn-danger mr-2 mt-3" data-dismiss="modal">Clear</button>
+                                                             </div>
+                                                   </div>
+
+
+                               </div>
+                         </div>
+                     </div>
+
+
+
+
+
+                     <!-- Book request Terms Model-->
+                     <div id="BookRequestTerms" class="modal fade" role="dialog">
+                             <div class="modal-dialog modal-lg mt-2 ">
+
+                                   <!-- Modal content-->
+                                   <div class="modal-content border-0">
+                                               <div class="modal-header" style="background:black;">
+                                                   <h4 class="modal-title text-white text-weight-bold text-left"><i class="fa fa-list" aria-hidden="true" style="color:#02BEFD;margin-right:15px;"></i>Book Request Terms and Conditions</h4>
+                                                   <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                               </div>
+                                   <div class="modal-body border-0">
+                                               <form class="form-horizontal">
+                                                     <div class="form-group font-weight-normal text-dark mt-3">
+                                                             <h5 class="font-weight-bold text-center my-3">Digital Copy</h5>
+                                                                     <p>1. After the availabilty approval, reader will receive Digital Copy on their account portal.</p>
+                                                                     <p>2. Readers can download the Digital Copy offline.</p>
+                                                                     <p>3. Returns must be asked between 12 hrs of email delivery.</p>
+                                                             <h5 class="font-weight-bold text-center mt-2">Soft/Hard Cover</h5>
+                                                                     <p>1. Book requests will be first approved by the read.com concern team.</p>
+                                                                     <p>2. After the availabilty approval, reader will receive email to accept the delivery.</p>
+                                                                     <p>3. If delivery is not accepted by the reader in 48 hrs, it will be automatically cancelled.</p>
+                                                                     <p>4. After delivery accepted by the reader, the book will be dispacted from our warehouses.</p>
+                                                                     <p>5. Currently only <strong>CASH ON DELIVERY</strong> mode is accepted.</p>
+                                                                     <p>6. Returns must be asked between 48 hrs of delivery.</p>
+                                                                     <p>7. Refund will be made in Cheque, in the name of reader only.</p>
+                                                                     <p>8. Disputes arising under Jalandhar Jurisdication.</p>
+                                                     </div>
+                                              </form>
+                                   </div>
+                                                   <div class="modal-footer border-0" style="background:black;">
+                                                               <div class="pull-right mt-4">
+                                                               <button type="submit" class="btn btn-warning mr-5 " data-dismiss="modal" data-toggle="modal" data-target="#HelpFeedback">Issue</button>
+                                                               <button type="submit" class="btn btn-danger mr-2" data-dismiss="modal">Close</button>
+                                                               </div>
+                                                   </div>
+                                  </div>
+                           </div>
+                     </div>
+
+
+
+
+
+
+
+                     <!-- Notifications-->
+                     <div id="Notifications" class="modal fade" role="dialog">
+                             <div class="modal-dialog  modal-lg">
+
+                                   <!-- Modal content-->
+                                   <div class="modal-content border-0">
+                                               <div class="modal-header" style="background:black;">
+                                                     <h4 class="modal-title text-white  text-weight-bold text-left"><i class="fa fa-bell" aria-hidden="true" style="color:#FFC40B;margin-right:15px;"></i>Notifications</h4>
+                                               <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                               </div>
+                                              <div class="modal-body" style="height:300px;overflow-y:auto;">
+                                              <form class="form-horizontal">
+                                                           <div class="form-group font-weight-normal text-dark m-4">
+                                                            <p class="font-weight-bold text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-bold text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-bold text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-bold text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                            <p class="font-weight-light text-dark">Books Added To Your Card.</p>
+                                                          </div>
+                                             </form>
+                                             </div>
+                                                   <div class="modal-footer" style="background:black;">
+                                                   <div class="pull-right">
+                                                   <button type="submit" class="btn btn-primary mr-2" data-dismiss="modal">Close</button>
+                                                   </div>
+                                                   </div>
+                                  </div>
+                           </div>
+                     </div>
+
+
+                     <!-- `Settings`-->
+
+
+                     <div id="Settings" class="modal fade" role="dialog">
+                         <div class="modal-dialog modal-xl">
+
+                                               <!-- Modal content-->
+                                   <div class="modal-content border-0">
+                                                         <div class="modal-header" style="background:black;">
+                                                                   <h4 class="modal-title text-white text-weight-bold text-left"><i class="fa fa-cogs" aria-hidden="true" style="color:#02BEFD;margin-right:15px;"></i> Settings</h4>
+                                                                   <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                                         </div>
+                                    <div class="modal-body" style="background:#F1F1F1;border:none;">
+                                                 <form class="form-horizontal">
+                                                   <div class="form-group">
+                                                            <div class="border border-light rounded-lg bg-white p-1">
+                                                                 <p class="text-dark ml-3 h5">Account</p>
+                                                                     <span class="d-block text-primary font-weight-light ml-3">Profile Settings</span>
+                                                                     <span class="d-block text-primary font-weight-light ml-3 ">Personal Settings</span>
+                                                            </div>
+                                                            <div class="border border-light rounded-lg mt-2 bg-white p-2">
+                                                                  <p class="text-dark ml-3 h5">Manage Addresses</p>
+                                                                      <span class="d-block text-primary font-weight-light ml-3">Add Address</span>
+                                                                      <span class="d-block text-primary font-weight-light ml-3">Edit Address</span>
+                                                                      <span class="d-block text-primary font-weight-light ml-3">Delete Address</span>
+                                                             </div>
+                                                             <div class="border border-light rounded-lg mt-2 bg-white p-2">
+                                                                   <p class="text-dark ml-3 h5">Payment Realted</p>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Add Payment Modes</span>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Add Card</span>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Edit Card</span>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Delete Card</span>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Bank Details</span>
+                                                             </div>
+                                                             <div class="border border-light rounded-lg mt-2 bg-white p-2">
+                                                                   <p class="text-dark ml-3 h5">Notifications</p>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Tune Notifications</span>
+                                                                       <span class="d-block text-primary font-weight-light ml-3">Subscription Alerts</span>
+                                                             </div>
+                                                       </div>
+                                                 </form>
+
+                                           </div>
+                                                              <div class="modal-footer border-0" style="background:black;">
+                                                                           <div class="pull-right">
+                                                                           <!--<button type="submit" class="btn btn-success mr-2" data-dismiss="modal">Save</button>-->
+                                                                           <button type="submit" class="btn btn-danger mr-2" data-dismiss="modal">Close</button>
+                                                                          </div>
+                                                              </div>
+
+                                 </div>
+                           </div>
+                     </div>
+
+
+
+
+                     <!-- Help/Feedback Model/Form-->
+                           <div id="HelpFeedback" class="modal fade" role="dialog">
+                                <div class="modal-dialog modal-xl">
+
+                                           <!-- Modal content-->
+                                           <div class="modal-content border-0">
+                                           <div class="modal-header" style="background:black;">
+
+                                           <h4 class="modal-title font-weight-bold text-white text-left"><i class="fa fa-question-circle" aria-hidden="true" style="color:#FF8C00;margin-right:15px;"></i>Help/Feedback</h4>
+                                           <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+
+                                           </div>
+
+                               <div class="modal-body border-0">
+                                           <form class="form-horizontal">
+                                                     <div class="form-row mt-2">
+
+                                                          <div class="col-md-3 col-xl-3 col-xl-3 col-sm-12 col-xs-12">
+                                                               <span>Date</span><input type="date" id="dateTodayhf" name="date" class="form-control font-weight-bold" disabled />
+
+                                                          </div>
+
+                                                     </div>
+
+                                                     <div class="form-row mt-2">
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-3 col-xl-3 col-lg-3">
+                                                                <span class="font-weight-bold">Query Type</span><select class="form-control">
+                                                                                                                <option>Issue</option>
+                                                                                                                <option>Complaint</option>
+                                                                                                                <option>Feedback</option>
+                                                                                                                <option>Praise</option>
+                                                                                                               </select>
+                                                           </div>
+
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-3 col-xl-3 col-lg-3">
+                                                                 <span class="font-weight-bold">Concern</span><select class="form-control">
+                                                                                                              <option>Book</option>
+                                                                                                              <option>Magzine</option>
+                                                                                                              <option>E-paper</option>
+                                                                                                              <option>Thesis</option>
+                                                                                                              <option>Subscription-Offers</option>
+                                                                                                              <option>Read.com Departments</option>
+                                                                                                              </select>
+                                                           </div>
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-3 col-xl-3 col-lg-3">
+                                                                 <span class="font-weight-bold">Previously Occuring</span><select class="form-control">
+                                                                                                                          <option>Yes (Old and Continuing)</option>
+                                                                                                                          <option>No (Recently Faced)</option>
+                                                                                                                          </select>
+                                                           </div>
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-3 col-xl-3 col-lg-3">
+                                                                 <span class="font-weight-bold">Resolution No</span><input type="text" class="form-control font-weight-bold">
+                                                           </div>
+
+                                                     </div>
+
+                                                     <div class="form-row mt-2">
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-4 col-xl-4 col-lg-4">
+                                                                 <span class="font-weight-bold">Mobile</span><input type="text" class="form-control font-weight-bold" placeholder="Mobile">
+                                                           </div>
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-4 col-xl-4 col-lg-4">
+                                                                 <span class="font-weight-bold">Email</span><input type="email" class="form-control font-weight-bold" placeholder="Enter Email">
+                                                           </div>
+
+                                                           <div class="col-sm-12 col-xs-12 col-md-4 col-xl-4 col-lg-4">
+                                                                 <span class="font-weight-bold">Communication</span><select class="form-control">
+                                                                                                                    <option>Call Me.</option>
+                                                                                                                    <option>Email</option>
+                                                                                                                    <option>WhatsApp</option>
+                                                                                                                    <option>Text SMS</option>
+                                                                                                                    </select>
+                                                          </div>
+
+                                                    </div>
+
+                                                   <div class="form-row mt-2">
+
+                                                           <div class="col">
+                                                                <span class="font-weight-bold">Details</span><textarea class="form-control" row="10" placeholder="Start Writing here..."></textarea>
+                                                           </div>
+
+                                                   </div>
+
+                                     </form>
+                                  </div>
+                                  <div class="modal-footer mt-3" style="background:black;border:none;">
+                                              <div class="pull-right">
+                                                          <button type="submit" class="btn btn-primary mr-2" data-dismiss="modal">Send</button>
+                                                          <button type="submit" class="btn btn-danger mr-2" onclick="HelpFeedbackReset()">Clear</button>
+
+                                               </div>
+                                  </div>
+
+                                </div>
+                        </div>
+                        </div>
+                        </div>
+
+
+
+                     <!-- TrackPostals Modal/Form-->
+
+                        <div id="TrackPostals" class="modal fade" role="dialog">
+                                     <div class="modal-dialog modal-xl">
+
+                                                  <!-- Modal content-->
+                                                  <div class="modal-content border-0">
+
+                                                  <div class="modal-header" style="background:black;">
+                                                  <h4 class="modal-title font-weight-bold text-white text-left"><i class="fa fa-map-marker" aria-hidden="true" style="color:#F62682;margin-right:15px;"></i>Track Postals</h4>
+                                                             <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                                  </div>
+
+                                         <div class="modal-body border-0">
+
+                                                     <form  class="form-inline">
+
+                                                                  <div class="form-group">
+                                                                             <span class="font-weight-bold h5 mr-3">Tracking No</span>
+                                                                  </div>
+
+                                                            <div class="form-group">
+                                                                     <input type="text" class="form-control ml-3 text-dark font-weight-bold" placeholder="Enter here...">
+                                                            </div>
+                                                     </form>
+
+                                                     <form class="form-inline border-bottom pb-2">
+
+                                                             <div class="form-group mt-2">
+                                                                   <span class="h5">Dispatched</span>
+                                                             </div>
+
+                                                             <div class="form-group mt-2 ml-5">
+                                                                     <input type="text" class="form-control" disabled placeholder="Dispatched On:"/>
+                                                             </div>
+
+                                                             <div class="form-group">
+                                                                       <input type="checkbox" class="form-check-input ml-5 pull-right" value="DISPATCHED" checked/>
+                                                             </div>
+                                                     </form>
+
+                                                     <form class="form-inline border-bottom pb-2">
+
+                                                             <div class="form-group mt-2">
+                                                                     <span class="h5">Shipped</span>
+                                                             </div>
+
+                                                             <div class="form-group mt-2 ml-5">
+                                                                      <input type="text" class="form-control" disabled placeholder="Shipped On:"/>
+                                                             </div>
+
+                                                             <div class="form-group">
+                                                                       <input type="checkbox" class="form-check-input ml-5 pull-right" value="Shipped" checked/>
+                                                             </div>
+
+                                                     </form>
+
+                                                     <form class="form-inline border-bottom pb-2">
+
+                                                             <div class="form-group mt-2">
+                                                                       <span class="h5">Out For Delivery</span>
+                                                             </div>
+
+                                                             <div class="form-group mt-2 ml-5">
+                                                                       <input type="text" class="form-control" disabled placeholder="Out for Delivery On:"/>
+                                                             </div>
+
+                                                             <div class="form-group">
+                                                                       <input type="checkbox" class="form-check-input ml-5 pull-right" value="Out for Delivery" checked/>
+                                                             </div>
+
+                                                     </form>
+
+                                                     <form class="form-inline border-bottom pb-2">
+
+                                                             <div class="form-group mt-2">
+                                                                    <span class="h5">Delivered</span>
+                                                             </div>
+
+                                                             <div class="form-group mt-2 ml-5">
+                                                                     <input type="text" class="form-control" disabled placeholder="Delivered On:"/>
+                                                             </div>
+
+                                                             <div class="form-group">
+                                                                     <input type="checkbox" class="form-check-input ml-5" value="Delivered" checked/>
+                                                             </div>
+
+                                                      </form>
+
+                                           </div>
+
+
+                                           <div class="modal-footer border-0" style="background:black;">
+                                                        <div class="pull-right">
+                                                              <button type="submit" class="btn btn-success mr-2" data-dismiss="modal">Track</button>
+                                                              <button type="submit" class="btn btn-danger mr-2" data-dismiss="modal">Reset</button>
+                                                        </div>
+                                           </div>
+
+
+
+                                  </div>
+                             </div>
+                         </div>
+                     </div>
+
+                     <!-- Login Sign Up Modal -->
+                     <div id="LoginRegister" class="modal" role="dialog">
+                       <div class="modal-dialog">
+
+                         <!-- Modal content-->
+                                     <div class="modal-content">
+                                                     <div class="modal-header" style="background:black;">
+                                                       <h4 class="modal-title text-left text-white"><i class="fa fa-user-circle-o" aria-hidden="true" style="color:#06CDF4;margin-right:15px;"></i>Login / SignUp</h4>
+                                                       <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                                     </div>
+                         <div class="modal-body" style="background:black;">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a data-toggle="tab" href="#Login" class="btn text-decoration-none m-2" style="background:black;border:1px solid white;color:white;">Login</a></li>
+                                                <li><a data-toggle="tab" href="#Sign-Up" class="btn text-decoration-none m-2" style="background:black;border:1px solid white;color:white;">Sign Up</a></li>
+                                           </ul>
+
+                         <div class="tab-content">
+
+                               <div id="Login" class="tab-pane fade in active mt-3">
+                                 <div class="text-center">
+                                 <h2 class="modal-title text-center text-white mb-3">Welcome Reader<i class="fa fa-smile-o text-warning ml-2" aria-hidden="true"></i></h2>
+                                           <h5 class="text-white mb-5">Login</h5>
+
+                                           <input type="text" class="mb-3" placeholder="UserName" style="border-radius:30px;outline:none;border:2px solid white;background:none;font-size:25px;" />
+                                           <input type="Password" class="mb-3" placeholder="Password" style="border-radius:30px;outline:none;border:2px solid white;background:none;font-size:25px;"/>
+
+                                           <div class="text-right mr-4">
+                                           <a href="#" class="text-decoration-none text-white">Trouble Login!</a>
+                                           </div>
+
+                                           <div class="text-center">
+                                           <a href="#" class="btn btn-success text-white">Login</a>
+                                           </div>
+
+                                 </div>
+                               </div>
+
+                               <div id="Sign-Up" class="tab-pane fade">
+
+
+                     <div class="text-center">
+                                              <h3 class="text-white mb-4">Sign Up</h3>
+
+                                               <form method="post" action="signup.php">
+                                              <input type="text"  class="mb-3 text-white font-weight-normal" style="border-radius:30px;outline:none;border:2px solid white;background:none;font-size:25px;" placeholder="Your Name" id="user_name" name="user_name"/>
+
+                                              <input type="email"  class="mb-3 text-white font-weight-normal" style="border-radius:30px;outline:none;border:2px solid white;background:none;font-size:25px;" placeholder="Your Email" id="user_email" name="user_email"/>
+
+                                              <input type="Password"  class="mb-3 text-white font-weight-normal" style="border-radius:30px;outline:none;border:2px solid white;background:none;font-size:25px;" placeholder="Password" id="user_password" name="user_password"/>
+
+                                              <input type="Password"  class="mb-3 text-white font-weight-normal" style="border-radius:30px;outline:none;border:2px solid white;background:none;font-size:25px;" placeholder="Confirm Password" id="user-re-password" name="user_re_password"/>
+
+                                             <div class="text-right mr-4">
+                                                 <a href="#" class="text-decoration-none text-white">Terms</a>
+                                             </div>
+
+                                             <div class="text-center">
+                                             <input type="submit" class="btn btn-md text-white" style="background:orange;border-radius:50px;" name="signup" id="signup" value="signup"/>
+                                             </div>
+
+                                           </form>
+
+                     </div>
+
+                              </div>
+
+                         </div>
+
+                       </div>
+
+                              <div class="modal-footer" style="background:black;">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                              </div>
+
+                             </div>
+
+                       </div>
+                     </div>
+
+
+
+        <!-- footer starts from here -->
+
+        <footer style="background:black;">
+
+        <!--<nav class="navbar navbar-expand-sm text-sm-center pt-3" style="background:black;" id="bottomnav">-->
+        <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 mt-3 text-center">
+
+
+           <a href="#" class="nav-link text-white mb-3">Company Profile</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">About Us</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Contact Us</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Investors</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Careers</a>
+
+
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-sm-12 col-xs-12 mt-3 text-center">
+
+           <a href="#" class="nav-link text-white mb-3">Terms of Use</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Publishing</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Educational</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Sales</a>
+
+        </div>
+
+        <div class="col-sm-12 col-xs-12 col-md-2 col-lg-2 mt-3 text-center">
+
+           <a href="#" class="nav-link text-white mb-3">Copyrights</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">E-paper</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Magzine</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Book</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Publishing</a>
+           <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Thesis</a>
+
+        </div>
+
+        <div class="col-sm-12 col-xs-12 col-md-2 col-lg-2 mt-3 text-center">
+
+             <a href="#" class="nav-link text-white mb-3">Team</a>
+             <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Writers</a>
+             <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Admin</a>
+             <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Accounts</a>
+             <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Warehouse</a>
+             <a href="#" class="nav-link text-white font-weight-light" style="font-size:14px;">Logistics</a>
+           </li>
+
+        </div>
+
+        <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+
+        <div class="text-center my-3">
+        <p style="font-size:11px;color:white">Connect with us</p>
+          <i class="fa fa-instagram fa-3x p-3 text-white" aria-hidden="true"></i>
+          <i class="fa fa-twitter fa-3x p-3 text-white" aria-hidden="true"></i>
+          <i class="fa fa-facebook-official fa-3x p-3 text-white" aria-hidden="true"></i>
+         </div>
+        <div class="mx-auto text-white text-center" style="font-size:13px;">
+        <p><i class="fa fa-map-marker mr-2" aria-hidden="true"></i>Plot No. 45, Sector-9 , Industrial Estate, Jalandhar City, Punjab, INDIA.</p>
+        <p><i class="fa fa-phone mr-2 fa-rotate-90" aria-hidden="true"></i><span class="font-weight-bold">O:</span> 0181-01234567 <span class="text-primary font-weight-bold">|</span> <span class="font-weight-bold"> M:</span> +91-0123456789 <span class="text-primary font-weight-bold">|</span> <span class="font-weight-bold">M:</span> +91-0123654897</p>
+        <p><i class="fa fa-at mr-2" aria-hidden="true"></i>info@read.com <span class="text-primary font-weight-bold">|</span> help@read.com <span class="text-primary font-weight-bold">|</span> sales@read.com</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p class="font-weight-light mt-4 text-center">Copyright<i class="fa fa-copyright m-2" aria-hidden="true"></i>2020. All rights reserved.</p>
+
+        </div>
+
+        </div>
+        <!--</nav>-->
+
+        </div>
+        </div>
+        </footer>
+
+
+        <!-- footer ends from here -->
+
+
+
+
+                                <script>
+
+                                    document.getElementById("dateToday").valueAsDate = new Date();
+                                    document.getElementById("dateTodayhf").valueAsDate = new Date();
+
+                                </script>
+
+
+
+
+
+    </body>
+    </html>
